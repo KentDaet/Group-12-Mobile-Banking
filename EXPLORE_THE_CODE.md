@@ -11,7 +11,7 @@ We're now going to walk through the most important parts of the sample code.
 
 inside the java class mobile holds the class for generating OTP
 ```
-public class mobile //holds the class for generating OTP
+public class mobile 
 ```
 b1 is the variable for iniating the OTP generation in the Firestore Database Auth
 ```
@@ -182,8 +182,9 @@ mLoginBtn.setOnClickListener(new View.OnClickListener() {
 
 # Withdrawal of Money
 ```
-public class WithdrawOB {
-
+public class WithdrawOB
+```
+```
     private double balance;
     private double wdValue;
 
@@ -205,9 +206,13 @@ public class WithdrawOB {
         return balance - wdValue;
 
     }//end getNewBalance
-}
+
 ```
-# Depositing of money
+# Transfer of money
+this class holds transfer button with Event Listener class, and Event handler method
+```
+public class TransferActivityOB
+```
 ```
 transferB.setOnClickListener(new View.OnClickListener() {
  @Override
@@ -306,4 +311,44 @@ transferB.setOnClickListener(new View.OnClickListener() {
                 }//end transfer amount was not entered msg
             }//end if
         });/
-        ```
+        
+  ```
+        
+        
+# Deposit of money
+
+  This class holds the deposit button with Event Listener class, and Event handler method
+  ```
+  public class TransactionActivityOB 
+   ```
+   
+ ```
+        DepositB.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //if deposit field is not empty, get deposit amount
+                if (!TextUtils.isEmpty(DepositET.getText())) {
+                    DepositEntered = Double.parseDouble(String.valueOf(DepositET.getText()));
+                    //create deposit object
+                    DepositOB dp = new DepositOB();
+                    dp.setBalance(BalanceD);
+                    dp.setDeposit(DepositEntered);
+
+                    //calculate new balance
+                    NewBalance = dp.getNewBalance();
+
+                    BalanceTV.setText(String.valueOf(currency.format(NewBalance)));
+                    BalanceD = NewBalance;
+                    //reset user deposit amount to zero
+                    DepositEntered = 0;
+                }//end if
+                //deposit filed is empty, prompt user to enter deposit amount
+                else {
+
+                    Toast.makeText(TransactionActivityOB.this, "Please enter deposit amount and try again!", Toast.LENGTH_LONG).show();
+                }//end else
+                //clear deposit field
+                DepositET.setText(null);
+            }
+        });
+  ```
