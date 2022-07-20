@@ -1,5 +1,6 @@
 # Group-12-Mobile-Banking
 Final project in the Subject Mobile Application Development
+![Splashscreen](https://user-images.githubusercontent.com/107467802/179892324-580fecb8-accd-499f-b90e-88a9182b2aae.png)
 
 
 # OTP Generation
