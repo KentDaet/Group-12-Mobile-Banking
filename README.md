@@ -4,7 +4,7 @@ Final project in the Subject Mobile Application Development
 ![Capture](https://user-images.githubusercontent.com/107467802/179892522-a910fffe-7465-4c71-8b4d-3b110dfd6d29.PNG)
 
 # Overview
-This is an application for TensorFlow Lite on Android. It uses image classification to continuously classify objects it sees from the device's back camera. Back-End used is the Firebase Firestore Database. The app is real-time, displaying the current status that's on the firebase.
+This is an application created in Android Studio using Java Programming Language for Android. Back-End used is the Firebase Firestore Database. The app is real-time, displaying the current status that's on the firebase.
 
 The following Screenshots compromises the entirety of this Mobile Banking Application.
 
