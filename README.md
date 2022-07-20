@@ -43,7 +43,7 @@ With the savings account, the client can deposit money or deposit to add to the 
 
 ![Screenshot_2022-07-18-15-35-30-17](https://user-images.githubusercontent.com/107467802/179891339-242e4206-4139-4594-b9a8-b05a8d05ae2a.jpg)
 
-# Tranfer of Funds
+# Transfer of Funds
 The transfer fund function as the means to interchange the clients money from saving to check o vice versa.
 
 ![Screenshot_2022-07-18-15-28-08-90](https://user-images.githubusercontent.com/107467802/179891084-e802e9df-6ae9-4337-8f03-9f26675aba3b.jpg)
