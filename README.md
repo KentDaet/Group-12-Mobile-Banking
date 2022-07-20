@@ -5,6 +5,7 @@ Final project in the Subject Mobile Application Development
 
 # Overview
 This is an application for TensorFlow Lite on Android. It uses image classification to continuously classify objects it sees from the device's back camera. Back-End used is the Firebase Firestore Database. The app is real-time, displaying the current status that's on the firebase.
+
 The following Screenshots compromises the entirety of this Mobile Banking Application.
 
 # OTP Generation
