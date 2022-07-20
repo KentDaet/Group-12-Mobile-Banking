@@ -6,7 +6,8 @@ Final project in the Subject Mobile Application Development
 # Overview
 This is an application created in Android Studio using Java Programming Language for Android. Back-End used is the Firebase Firestore Database. The app is real-time, displaying the current status that's on the firebase.
 
-The following Screenshots compromises the entirety of this Mobile Banking Application.
+# Features
+The following Screenshots below compromises the entirety of this Mobile Banking Application Project.
 
 # OTP Generation
 You must must carry out this operation before you may launch the JK2R mobile banking application. The first step is to enter your active cell number to get your OTP. Simply click "Get OTP" to process the code that will be supplied to you in less than a minute; after waiting a short while for the code to be sent, move on to the next stage.
@@ -59,7 +60,6 @@ The user can examine all the transactions and details. They can also see the edi
 * USB cable (to connect Android device to your computer)
 * or Use the configured specific Mobile device Android version of Android Studio Emulator
 
-# Features
 
 # Demo Video
 Click the link to watch 
