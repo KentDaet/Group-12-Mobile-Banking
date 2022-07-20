@@ -9,7 +9,11 @@ We're now going to walk through the most important parts of the sample code.
 
 # OTP Authentication And Veification
 
-b1 is the variable for iniating the OTP generation in the Firestore database Auth
+
+```
+public class mobile //holds the class for generating OTP
+```
+b1 is the variable for iniating the OTP generation in the Firestore Database Auth
 ```
 @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +32,10 @@ b1 is the variable for iniating the OTP generation in the Firestore database Aut
             startActivity(intent);
         });
 ```
-
+b1 is the variable for iniating the OTP generation in the Firestore Database Auth
+```
+public class otp
+```
 # Registration And Log in
 
 # Depositing and Withdrawal
