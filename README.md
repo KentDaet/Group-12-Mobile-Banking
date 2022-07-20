@@ -4,7 +4,8 @@ Final project in the Subject Mobile Application Development
 ![Capture](https://user-images.githubusercontent.com/107467802/179892522-a910fffe-7465-4c71-8b4d-3b110dfd6d29.PNG)
 
 # Overview
-The following Screenshots compromises the entirety of this Mobile Banking Application
+This is an application for TensorFlow Lite on Android. It uses image classification to continuously classify objects it sees from the device's back camera. Back-End used is the Firebase Firestore Database. The app is real-time, displaying the current status that's on the firebase.
+The following Screenshots compromises the entirety of this Mobile Banking Application.
 
 # OTP Generation
 ![Screenshot_2022-07-18-15-02-50-41](https://user-images.githubusercontent.com/107467802/179890433-e5084d38-bfb4-49ce-9572-744171d821c6.jpg)
