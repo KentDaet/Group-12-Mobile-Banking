@@ -9,7 +9,7 @@ We're now going to walk through the most important parts of the sample code.
 
 # OTP Authentication And Veification
 
-
+inside the java class mobile holds the class for generating OTP
 ```
 public class mobile //holds the class for generating OTP
 ```
