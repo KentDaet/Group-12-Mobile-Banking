@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "208109942389",
+    "project_id": "mobilebankinggroup12",
+    "storage_bucket": "mobilebankinggroup12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208109942389:android:a2ba3d961f6376eb53ea3c",
+        "android_client_info": {
+          "package_name": "com.example.mobilebankinggroup12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208109942389-c5252eua977ll3avga35gbno93bnmpc1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm74G1b2LyhATJevVpfyWxLDii0OLayOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208109942389-c5252eua977ll3avga35gbno93bnmpc1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JK2R MobileBanking</string>
+    <string name="prompt">Select Transfer Type</string>
+    <string name="welcome_to_jk2r_mobile_banking_main_menu">WELCOME TO JK2R MOBILE BANKING Main Menu</string>
+    <string name="see_savings">SEE SAVINGS</string>
+    <string name="check_balance">CHECK BALANCE</string>
+    <string name="transfer_money">TRANSFER MONEY</string>
+    <string name="profile">PROFILE</string>
+    <string-array name="txtGroup">
+        <item>From Checking to Savings</item>
+        <item>From Savings to Checking</item>
+
+    </string-array>
+</resources>

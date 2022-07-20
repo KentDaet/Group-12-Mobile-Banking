@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/teal_200"
+    tools:context=".MenuActivityOB">
+
+    <TextView
+        android:id="@+id/menu_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="WELCOME TO JK2R MOBILE BANKING        Main Menu"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/checkingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menu_TV"
+        android:layout_alignLeft="@+id/menu_TV"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:minWidth="200dip"
+        android:text="CHECK BALANCE" />
+
+    <Button
+        android:id="@+id/savingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkingButton"
+        android:layout_alignEnd="@+id/menu_TV"
+        android:layout_alignRight="@+id/menu_TV"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:minWidth="200dip"
+        android:text="SEE SAVINGS" />
+
+    <Button
+        android:id="@+id/transferButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/savingsButton"
+        android:layout_alignStart="@+id/savingsButton"
+        android:layout_alignLeft="@+id/savingsButton"
+        android:layout_marginTop="32dp"
+        android:minWidth="200dip"
+        android:text="TRANSFER MONEY" />
+
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transferButton"
+        android:layout_alignStart="@+id/transferButton"
+        android:layout_alignLeft="@+id/transferButton"
+        android:layout_marginTop="32dp"
+        android:minWidth="200dip"
+        android:text="PROFILE" />
+
+
+</RelativeLayout>
