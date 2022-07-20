@@ -7,7 +7,7 @@ https://console.firebase.google.com/u/0/project/mobilebankinggroup12
 # Explore the code
 We're now going to walk through the most important parts of the sample code.
 
-# OTP Authentication And Veification
+# OTP Authentication And Verification
 
 inside the java class mobile holds the class for generating OTP
 ```
