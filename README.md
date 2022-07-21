@@ -70,6 +70,9 @@ Click the link to watch https://youtu.be/zv_oAI_BWpE
   * Kingsley Alexis Tumbaga
   * Rizza Micah Bibay
   
+# Subject:
+Mobile Aplication Development
+
 # Adviser:
 Prof. Jefferson A. Costales
 
