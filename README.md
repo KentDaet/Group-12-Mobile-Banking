@@ -1,4 +1,5 @@
 # Group-12-Mobile-Banking
+# JK2R Mobile Banking App
 Final project in the Subject Mobile Application Development
 
 ![Capture](https://user-images.githubusercontent.com/107467802/179892522-a910fffe-7465-4c71-8b4d-3b110dfd6d29.PNG)
