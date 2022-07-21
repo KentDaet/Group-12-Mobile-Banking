@@ -62,7 +62,7 @@ The user can examine all the transactions and details. They can also see the edi
 
 
 # Demo Video
-Click the link to watch 
+Click the link to watch https://youtu.be/zv_oAI_BWpE
 
 # Researcher/Developer:
   * Joshua Rufo
