@@ -71,7 +71,7 @@ Click the link to watch https://youtu.be/zv_oAI_BWpE
   * Rizza Micah Bibay
   
 # Adviser:
-Jefferson A. Costales
+Prof. Jefferson A. Costales
 
 # School Name:
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
